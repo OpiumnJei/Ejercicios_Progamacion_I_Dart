@@ -87,14 +87,12 @@ String determinarGanador(List<dynamic> pokemon1, List<dynamic> pokemon2) {
     return ''' ${pokemon1[0]} 
               Habilidad: ${pokemon1[1]}
               
-              
-
             '''; 
   } 
   else{ 
     return '''${pokemon2[0]}
               Habilidad: ${pokemon2[1]}
-            
+
             '''; 
   }
 }
