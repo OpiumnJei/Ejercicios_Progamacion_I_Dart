@@ -12,7 +12,9 @@ void main(List<String> args) {
     'Correo' : "juanfederico@hotmail.com",
     'referencias_personales' : ["Eduardo Brito", 8093825802]
   };
-
+    
+    datosP.addAll({'nombre': 'Pedro'});
+    print(datosP['nombre']);
 
   datosP.forEach((indice, valor) { //para imprimir el mapa
 
